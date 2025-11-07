@@ -61,15 +61,13 @@ namespace ItForge.Salmon.JsonPlaceholder
 
         public async Task InsertContactAsync(string email, string name, string phone)
         {
-            var schema = _userConnection.EntitySchemaManager.GetInstanceByName("Contact");
-            var entity = schema.CreateEntity(_userConnection);
+            var insert = new Insert(_userConnection)
+                .Into("Contact")
+                .Set("Name", Column.Parameter(name))
+                .Set("Email", Column.Parameter(email))
+                .Set("Phone", Column.Parameter(phone));
 
-            entity.SetDefColumnValues();
-            entity.SetColumnValue("Name", name);
-            entity.SetColumnValue("Email", email);
-            entity.SetColumnValue("Phone", phone);
-
-            entity.Save();
+            await insert.ExecuteAsync();
         }
     }
 }
