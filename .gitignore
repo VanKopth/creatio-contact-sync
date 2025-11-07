@@ -1,0 +1,16 @@
+/*
+!.github
+!.gitignore
+!README.md
+!/ItForge.Salmon.JsonPlaceholder
+!/ItForge.Salmon.JsonPlaceholder/*
+**/Localization/*
+!**/Localization/data.ru-RU.json
+!**/Localization/data.en-US.json
+!**/Localization/data.pl-PL.json
+!**/Localization/data.uk-UA.json
+**resource.*.xml
+!**resource.ru-RU.xml
+!**resource.en-US.xml
+!**resource.uk-UA.xml
+!**resource.pl-PL.xml

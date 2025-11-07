@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "623782bb-bc61-438b-8790-2d8dd8c4525e",
+    "Name": "ParseContactsPage",
+    "ModifiedOnUtc": "\/Date(1762509843000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Синхронизировать контакты?"
+  }
+}

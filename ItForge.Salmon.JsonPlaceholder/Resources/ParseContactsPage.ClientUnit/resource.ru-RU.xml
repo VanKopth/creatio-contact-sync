@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Синхронизировать контакты?" />
+			<Item Name="LocalizableStrings.Label_vfbjnes_caption.Value" Value="Синхронизировать контакты?" />
+			<Item Name="LocalizableStrings.SaveButton_caption.Value" Value="Да" />
+		</Items>
+	</Group>
+</Resources>
